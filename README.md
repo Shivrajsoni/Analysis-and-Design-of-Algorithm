@@ -1,5 +1,5 @@
-Analysis and Design of Algorithms
-Collection of all programs for ADA lab 2025
+# Analysis and Design of Algorithms 👽
+## Collection of all programs for ADA lab 2025
 
 Index
  Quicksort
