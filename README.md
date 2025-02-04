@@ -1,7 +1,7 @@
 # Analysis and Design of Algorithms 👽
 ## Collection of all programs for ADA lab 2025
 
-##Index
+## Index
  **Quicksort**
 sorting of an array using a pivot ensuring the elements to the left of the pivot are smaller than the pivot and elements right of pivot are larger than it
 The pivot is put in the position where it it should be when the whole array is sorted
