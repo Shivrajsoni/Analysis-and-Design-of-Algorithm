@@ -1,21 +1,21 @@
-Detailed Explanation of the Cosine Similarity Implementation for Text Files
-Key Features
+#Detailed Explanation of the Cosine Similarity Implementation for Text Files
+##Key Features
 
-Text Preprocessing
+###Text Preprocessing
 
 Converts text to lowercase
 Removes punctuation
 Tokenizes text into words
 
 
-Vector Representation
+###Vector Representation
 
 Creates word frequency maps
 Generates a unified vocabulary from both documents
 Converts documents to numerical vectors based on word frequencies
 
 
-Similarity Calculation
+###Similarity Calculation
 
 Computes dot product
 Calculates vector magnitudes
@@ -23,7 +23,7 @@ Applies cosine similarity formula
 
 
 
-How to Use
+**How to Use**
 
 Prepare two text files:
 
