@@ -1,37 +1,37 @@
-#Detailed Explanation of the Cosine Similarity Implementation for Text Files
-##Key Features
+# Detailed Explanation of the Cosine Similarity Implementation for Text Files
+## Key Features
 
-###Text Preprocessing
+### Text Preprocessing
 
-Converts text to lowercase
-Removes punctuation
-Tokenizes text into words
-
-
-###Vector Representation
-
-Creates word frequency maps
-Generates a unified vocabulary from both documents
-Converts documents to numerical vectors based on word frequencies
+- Converts text to lowercase
+- Removes punctuation
+- Tokenizes text into words
 
 
-###Similarity Calculation
+### Vector Representation
 
-Computes dot product
-Calculates vector magnitudes
-Applies cosine similarity formula
+- Creates word frequency maps
+- Generates a unified vocabulary from both documents
+- Converts documents to numerical vectors based on word frequencies
+
+
+### Similarity Calculation
+
+- Computes dot product
+- Calculates vector magnitudes
+- Applies cosine similarity formula
 
 
 
-**How to Use**
+### How to Use
 
-Prepare two text files:
+- Prepare two text files:
 
 document1.txt
 document2.txt
 
 
-Run the program
+- Run the program
 
 It will read both files
 Calculate cosine similarity
@@ -40,7 +40,7 @@ Provide a textual interpretation of similarity
 
 
 
-Similarity Score Interpretation
+- Similarity Score Interpretation
 
 1.0: Identical documents
 0.8-1.0: Very high similarity
@@ -49,7 +49,7 @@ Similarity Score Interpretation
 0.2-0.4: Low similarity
 0.0-0.2: Very low similarity
 
-Key Methods
+- Key Methods
 
 tokenize(): Breaks text into words
 createWordFrequencyMap(): Counts word occurrences
