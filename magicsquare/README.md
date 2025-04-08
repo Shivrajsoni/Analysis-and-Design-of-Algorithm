@@ -1,6 +1,6 @@
-# A magic square is a square grid of distinct numbers arranged in such a way that the sum of numbers in each row, each column, and both main diagonals is the same. This constant sum is called the magic constant or magic sum.
+## A magic square is a square grid of distinct numbers arranged in such a way that the sum of numbers in each row, each column, and both main diagonals is the same. This constant sum is called the magic constant or magic sum.
 
-# Steps:
+## Steps:
 
 - 1.Start with an empty 3×3 grid.
 
