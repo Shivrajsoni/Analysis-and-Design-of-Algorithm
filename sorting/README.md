@@ -29,6 +29,16 @@ Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 
 ![Alt text](../plot/csv/quicksort_plot.png)
 
+## Complexity Analysis of MergeSort method
+
+### Time Complexity
+-  time complexity is O(N * log2N).
+- best case, the worst case and the average case the time complexity is the same.
+
+![Alt text](../plot/csv/mergesort.png)
+
+
+
 
 
 

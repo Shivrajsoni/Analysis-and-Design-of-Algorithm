@@ -1,59 +1,67 @@
-
-// quick sort algorithm complexity analysis
 #include <chrono>
 #include <ctime>
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
-int partition(vector<int> &a, int l, int h) {
-  int pivot = a[l];
+void merge(vector<int> &arr, int l, int m, int r) {
+  int n1 = m - l + 1;
+  int n2 = r - m;
 
-  int i = l + 1;
-  int j = h;
-  while (i <= j) {
-    if (a[i] < pivot && i <= h) {
-      i++;
-    }
-    if (a[j] > pivot && j > l) {
-      j--;
+  vector<int> L(n1), R(n2);
+  for (int i = 0; i < n1; ++i)
+    L[i] = arr[l + i];
+  for (int j = 0; j < n2; ++j)
+    R[j] = arr[m + 1 + j];
+
+  int i = 0, j = 0, k = l;
+  while (i < n1 && j < n2) {
+    if (L[i] <= R[j]) {
+      arr[k++] = L[i++];
     } else {
-      break;
+      arr[k++] = R[j++];
     }
-    swap(a[i], a[j]);
   }
-  swap(a[l], a[i - 1]);
 
-  return i - 1;
+  while (i < n1)
+    arr[k++] = L[i++];
+  while (j < n2)
+    arr[k++] = R[j++];
 }
 
-void quickSort(vector<int> &a, int l, int h) {
-  if (l < h) {
-    int p = partition(a, l, h);
-    quickSort(a, l, p - 1);
-    quickSort(a, p + 1, h);
+void mergeSort(vector<int> &arr, int l, int r) {
+  if (l < r) {
+    int m = l + (r - l) / 2;
+    mergeSort(arr, l, m);
+    mergeSort(arr, m + 1, r);
+    merge(arr, l, m, r);
   }
 }
 
 int main() {
   srand(time(NULL));
   cout << "size,time\n";
+
   for (int n = 1000; n <= 10000; n += 1000) {
     cout << n;
-    long res = 0;
-    for (int k = 0; k < 10; ++k) {
-      vector<int> a(n, 0);
-      for (int j = 0; j < n; j++) {
-        a[j] = rand();
-      }
-      auto start = std::chrono::high_resolution_clock::now();
-      quickSort(a, 0, n - 1);
-      auto end = std::chrono::high_resolution_clock::now();
-      auto duration =
-          std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
-      res += duration.count();
+    long long totalTime = 0;
+
+    for (int t = 0; t < 10; ++t) {
+      vector<int> arr(n);
+      for (int i = 0; i < n; ++i)
+        arr[i] = rand();
+
+      auto start = chrono::high_resolution_clock::now();
+      mergeSort(arr, 0, n - 1);
+      auto end = chrono::high_resolution_clock::now();
+
+      auto duration = chrono::duration_cast<chrono::nanoseconds>(end - start);
+      totalTime += duration.count();
     }
-    cout << "," << res / 10 << "\n";
+
+    cout << "," << totalTime / 10 << "\n";
   }
+
   return 0;
 }
