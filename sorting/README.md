@@ -12,7 +12,7 @@ Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 - Average Case: O(n log n)
 - Worst Case: O(n²) (if pivot is poorly chosen, e.g., already sorted array)
 
-![Alt text](../plot/csv/iterative_quicksort.png) 
+![Alt text](../plot/png/iterative_quicksort.png) 
 
 ### Common Pitfall 
 - Pivot Choice: Always choosing the last element can lead to worst-case behavior. Use median-of-three for optimization.
@@ -27,7 +27,7 @@ Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 - Worst Case Time Complexity Analysis of Quick Sort: O(N2).
 - Average Case Time Complexity Analysis of Quick Sort: O(N * logN).
 
-![Alt text](../plot/csv/quicksort_plot.png)
+![Alt text](../plot/png/quicksort_plot.png)
 
 ## Complexity Analysis of MergeSort method
 
@@ -35,7 +35,7 @@ Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 -  time complexity is O(N * log2N).
 - best case, the worst case and the average case the time complexity is the same.
 
-![Alt text](../plot/csv/mergesort.png)
+![Alt text](../plot/png/mergesort.png)
 
 
 
