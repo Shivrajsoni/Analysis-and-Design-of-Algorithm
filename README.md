@@ -8,5 +8,9 @@
 <br/>
 [Peak Element](./peak/README.md)
 <br/>
+[KnapSack](./knapsack/README.md)
+<br/>
+[activityselection](./greedy/activity_selection.cpp)
+<br/>
 
 

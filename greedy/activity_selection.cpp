@@ -1,41 +1,40 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-
-bool compare( vector<int>&a , vector<int> &b){
-  return a[1]<b[1];
+void sorting(vector<vector<int>> &a) {
+  for (int i = 0; i < a.size() - 1; i++) {
+    int minindex = i;
+    for (int j = i + 1; j < a.size(); j++) {
+      if (a[j][1] < a[minindex][1])
+        minindex = j;
+    }
+    if (i != minindex)
+      swap(a[i], a[minindex]);
+  }
 }
 
-void activity_selection(  vector<vector<int> > &activitites, int size){
+void activitySelection(
+    vector<vector<int>>
+        &activities) { // sort(activities.begin(), activities.end(), compare);
+  sorting(activities);
 
-  // sort on last index
-  // put last Index variable and compare it with next element first term
-
-  sort(activitites.begin(),activitites.end(),compare);
-  
-  for(int i =0 ;i<size ;i++){
-    cout<<""<<activitites[i]<<"";
+  for (int i = 0; i < activities.size(); i++) {
+    cout << "[" << activities[i][0] << ", " << activities[i][1] << "]" << endl;
   }
 
-  int last_index = 0;
-  for(int i =0;i<size;i++){
-    if(last_index< activitites[i][0]){
-      cout<<activitites[i][0]<<"->"<<activitites[i][1]<<endl;
-
-      last_index = activitites[i][1];
+  int lastEnd = 0;
+  cout << "Selected activities:" << endl;
+  for (int i = 0; i < activities.size(); i++) {
+    if (activities[i][0] >= lastEnd) {
+      cout << "[" << activities[i][0] << ", " << activities[i][1] << "]"
+           << endl;
+      lastEnd = activities[i][1]; // Update last selected end time
     }
   }
-
 }
 
-
-
-int main(){
-
-
-  int size = 8;
- vector<vector<int> > activitites  = {{1,3},{2,5},{3,4},{6,8},{5,7},{9,19},{7,10},{12,14}};
-  activity_selection(activitites,size);
-
-  return 0;
+int main() {
+  vector<vector<int>> activities = {{1, 2}, {2, 5},  {3, 4},  {6, 8},
+                                    {5, 7}, {9, 19}, {7, 10}, {12, 14}};
+  activitySelection(activities);
 }

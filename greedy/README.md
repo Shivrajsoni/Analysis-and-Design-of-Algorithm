@@ -1,15 +1,19 @@
-## FRACTIONAL KNAPSACK
-The basic idea of the greedy approach is to calculate the ratio profit/weight for each item and sort the item on the basis of this ratio. Then take the item with the highest ratio and add them as much as we can (can be the whole element or a fraction of it).
+The Activity Selection Problem is a greedy algorithm problem where we need to select the maximum number of activities that don’t overlap, given their start and end times.
 
+Sorting takes O(n log n), and selecting activities takes O(n), so total time is O(n log n).
 
-This will always give the maximum profit because, in each step it adds an element such that this is the maximum possible profit for that much weight.
+Steps:
 
-### Follow the given steps to solve the problem using the above approach:
+1.First, sort all the activities based on their ending times in ascending order.
 
-- Calculate the ratio (profit/weight) for each item.
-- Sort all the items in decreasing order of the ratio.
-- Initialize res = 0, curr_cap = given_cap.
-- Do the following for every item i in the sorted order:
-- If the weight of the current item is less than or equal to the remaining capacity then add the value of that item into the result
-- Else add the current item as much as we can and break out of the loop.
-- Return res.
+2.Select the first activity (which ends earliest) as it leaves the most time for the rest.
+
+3.Then, go through the sorted list and for each activity:
+
+4.If its start time is after or equal to the finish time of the last selected activity, select it.
+
+5.Keep updating the end time reference to the current selected activity.
+
+6.Repeat this until you've checked all activities.
+
+Used in CPU scheduling, conference room scheduling, and event planning to maximize task completion.
