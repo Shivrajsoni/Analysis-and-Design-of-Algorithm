@@ -16,4 +16,4 @@
 
 ## Time complexity:O(n^2)
 
-![Alt text](../plot/csv/magicsquare.png)
+![Alt text](../plot/png/magicsquare.png)
