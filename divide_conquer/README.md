@@ -1,4 +1,4 @@
-
+### Min-Max of an array using Divide and Conquer Method:
 The Min-Max problem is about finding the minimum and maximum elements in an array. Instead of using a simple linear scan (which takes O(n) time), we can use the Divide and Conquer approach to optimize it.
 
 Used in: Game Theory: Minimax algorithm in decision-making and AI (e.g., Chess, Tic-Tac-Toe) & Computational Geometry: Finding bounding box (smallest and largest points) in a dataset.
@@ -18,4 +18,14 @@ Steps:
 6.Return the final min and max values after combining the results from both halves.
 
 The iterative approach takes 2(n-1) comparisons in the worst case. The divide-and-conquer approach takes only ~3n/2 comparisons, making it more efficient.
+
+### Binary Search in an array using Divide and Conquer
+
+
+### Time Complexity:
+Time Complexity
+T(n) = T(n/2) + c
+
+the solution for above reoccurrence is Theta( Logn )
+
 

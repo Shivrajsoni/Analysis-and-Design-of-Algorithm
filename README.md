@@ -28,6 +28,28 @@
 <br/>
 [cosine Similiarity](./cosine_similiarity/README.md)
 <br/>
+[binary search using divide and conquer](./divide_conquer/binary_search.cpp)
+<br/>
+
+[Matrix](./matrix/README.md)
+  - [matrix Multiplication Iterative](./matrix/matrix_multiplication_brute_force.cpp)
+  - [matrix Multiplication divide_conquer ](./matrix/matrix_multiplication.cpp)
+  - [strasson method ](./matrix/strassen.cpp)
+
+
+[Dijisktra Algorithms](./dijikstra/README.md)
+
+<br/>
+
+[Minimum Spanning tree](./minimum_spanning_tree/README.md)
+
+  - [Prims Algorithms](./minimum_spanning_tree/prims.cpp)
+
+  - [Kruskal Algorithms](./minimum_spanning_tree/kruskal.cpp)
+
+
+
+
 
 
 
