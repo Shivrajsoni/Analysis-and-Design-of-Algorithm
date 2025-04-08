@@ -7,22 +7,22 @@ Another loop to compare that element with every other Array element = O(n)
 Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 
 
-### Complexity Analysis of iterative Quick sort method
-## Time Complexity
+## Complexity Analysis of iterative Quick sort method
+### Time Complexity
 - Average Case: O(n log n)
 - Worst Case: O(n²) (if pivot is poorly chosen, e.g., already sorted array)
 
 ![Alt text](../plot/csv/iterative_quicksort.png) 
 
-## Common Pitfall 
+### Common Pitfall 
 - Pivot Choice: Always choosing the last element can lead to worst-case behavior. Use median-of-three for optimization.
 
 - Stack Management: Ensure you push subarrays in the correct order (e.g., process smaller subarrays first).
 
 
-### Complexity Analysis of QuickSort method
+## Complexity Analysis of QuickSort method
 
-## Time Complexity
+### Time Complexity
 - Best Case Time Complexity Analysis of Quick Sort: O(N * logN).
 - Worst Case Time Complexity Analysis of Quick Sort: O(N2).
 - Average Case Time Complexity Analysis of Quick Sort: O(N * logN).
