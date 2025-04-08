@@ -4,14 +4,14 @@
 ### Index
 [Sorting](./sorting/README.md)
 <br/>
-
 - [insertion Sort](./sorting/insertionsort.cpp)
 - [Selection Sort](./sorting/selectionsort.cpp)
 - [Bubble Sort](./sorting/bubblesort.cpp)
 - [Merge Sort](./sorting/mergesort.cpp)
 - [Quick Sort](./sorting/quicksort.cpp)
 - [Iterative Quick Sort](./sorting/iterative_quicksort.cpp)
-<br/>
+
+
 [MagicSquare](./magicsquare/README.md)
 <br/>
 [Peak Element](./peak/README.md)
