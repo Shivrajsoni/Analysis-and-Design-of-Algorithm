@@ -48,6 +48,15 @@
   - [Kruskal Algorithms](./minimum_spanning_tree/kruskal.cpp)
 
 
+[dynamic Programming](./dp/README.md)
+  - [MultiStage Graph](./dp/multistage_graph.cpp)
+
+  - [All pair Shortest Path](./dp/floyd_warshall.cpp)
+
+
+[Plots](./plot/README.md)
+
+<br/>
 
 
 
