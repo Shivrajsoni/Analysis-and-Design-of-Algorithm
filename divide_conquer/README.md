@@ -26,6 +26,6 @@ The iterative approach takes 2(n-1) comparisons in the worst case. The divide-an
 Time Complexity
 T(n) = T(n/2) + c
 
-the solution for above reoccurrence is Theta( Logn )
+the solution for above reccurrence is Theta( Logn )
 
 

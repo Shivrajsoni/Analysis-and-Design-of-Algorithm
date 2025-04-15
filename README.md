@@ -4,6 +4,7 @@
 ### Index
 [Sorting](./sorting/README.md)
 <br/>
+ 
 - [insertion Sort](./sorting/insertionsort.cpp)
 - [Selection Sort](./sorting/selectionsort.cpp)
 - [Bubble Sort](./sorting/bubblesort.cpp)
@@ -13,21 +14,30 @@
 
 
 [MagicSquare](./magicsquare/README.md)
+
 <br/>
+
 [Peak Element](./peak/README.md)
 <br/>
+
 [KnapSack](./knapsack/README.md)
 <br/>
+
 [activityselection](./greedy/activity_selection.cpp)
 <br/>
+
 [horner rule](./horner_rule/README.md)
 <br/>
+
 [jaccard_similiarity](./jaccard_similarity/README.md)
 <br/>
+
 [max and min in an array using divide and conquer](./divide_conquer/max_min.cpp)
 <br/>
+
 [cosine Similiarity](./cosine_similiarity/README.md)
 <br/>
+
 [binary search using divide and conquer](./divide_conquer/binary_search.cpp)
 <br/>
 
@@ -55,11 +65,14 @@
 
 [nqueens](./nqueens/README.md)
 <br/>
-[0-1Knapsack](./0-1Knapsack/README.md)
+
+[0-1Knapsack](./dp/0_1_knapsack.cpp)
 <br/>
-[travelling Salesperson](./travellingSalesperson.cpp)
+
+[travelling Salesperson](./dp/travelling_salesperson.cpp)
 <br/>
-[Longest_common_subsequence](./longest_common_subsequence)
+
+[Longest_common_subsequence](./dp/longest_common_subsequence.cpp)
 <br/>
 
 

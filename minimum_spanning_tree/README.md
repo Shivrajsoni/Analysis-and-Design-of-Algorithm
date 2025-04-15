@@ -6,6 +6,7 @@
 - Step 5: Add the chosen edge to the MST. Since we consider only the edges that connect fringe vertices with the rest, we never get a cycle.
 - Step 6: Return the MST and exit
 
+### Time Complexity:O(nlogn)
 
 ## How to find MST using Kruskal’s algorithm?
 - Below are the steps for finding MST using Kruskal’s algorithm:
@@ -13,3 +14,5 @@
 - Sort all the edges in a non-decreasing order of their weight. 
 - Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If the cycle is not formed, include this edge. Else, discard it. 
 - Repeat step 2 until there are (V-1) edges in the spanning tree.
+
+### Time Complexity:O(Elogv)
