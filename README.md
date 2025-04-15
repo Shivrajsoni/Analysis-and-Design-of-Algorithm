@@ -53,6 +53,18 @@
 
   - [All pair Shortest Path](./dp/floyd_warshall.cpp)
 
+[nqueens](./nqueens/README.md)
+<br/>
+[0-1Knapsack](./0-1Knapsack/README.md)
+<br/>
+[travelling Salesperson](./travellingSalesperson.cpp)
+<br/>
+[Longest_common_subsequence](./longest_common_subsequence)
+<br/>
+
+
+<br/>
+
 
 [Plots](./plot/README.md)
 
