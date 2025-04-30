@@ -42,6 +42,11 @@ int knapsack(int W, vector<int> &val, vector<int> &wt) {
   return knapsackRec(W, val, wt, n);
 }
 
+
+// int setnotationKnapSack(int ind,int W,vector<int> &val, vector<int> &wt){
+//    
+// }
+
 int main() {
   vector<int> wt = {4, 5, 1};
   vector<int> profit = {1, 2, 3};

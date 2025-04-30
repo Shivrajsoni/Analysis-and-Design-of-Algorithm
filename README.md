@@ -55,7 +55,13 @@ Below is the index of algorithms and programs, grouped by category. Click the li
 - [Activity Selection](./greedy/activity_selection.cpp)
 
 ### Backtracking 🔄
-- [N-Queens Problem](./nqueens/README.md)
+- [Theory](./Backtraking/README.md) 
+- [N-Queens Problem](./Backtraking/n-queens.cpp)
+- [m-coloring](./Backtraking/m-coloring.cpp)
+- [hamiltanion](./Backtraking/hamiltonian-cycle.cpp)
+- [subset of set](./Backtraking/subset_of_set.cpp)
+
+
 
 ### Miscellaneous 📚
 - [Magic Square](./magicsquare/README.md)
