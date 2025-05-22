@@ -12,6 +12,9 @@ Welcome to the **Analysis and Design of Algorithms (ADA) Lab 2025** repository! 
 - [Contributing](#contributing)
 - [License](#license)
 
+## Introduction 
+  - [asymptotic analysis](./introduction/asymtotic-analysis.md)
+
 ## 🌟 Overview
 This repository is a curated collection of programs developed for the ADA Lab 2025. Each algorithm is implemented in C++ and organized into relevant categories (e.g., Sorting, Graph Algorithms, Dynamic Programming). The code is well-documented, and each category includes a dedicated README for detailed explanations and usage instructions.
 
