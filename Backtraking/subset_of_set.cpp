@@ -37,5 +37,5 @@ int main() {
   int sum = 3;
   vector<int> subset;
 
-  s.PrintSubset(set, subset, sum, n, 0);
+  s.PrintSubset(set, subset, n, sum, 0);
 }

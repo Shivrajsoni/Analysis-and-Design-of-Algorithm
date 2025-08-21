@@ -3,7 +3,7 @@
 
 - One loop to select an element of Array one by one = O(n)
 Another loop to compare that element with every other Array element = O(n)
-- Therefore overall complexity = O(n) * O(n) = O(n*n) = O(n2)
+- Therefore overall complexity = O(n) * O(n) = O(n*n) = O(n^2)
 Auxiliary Space: O(1) as the only extra memory used is for temporary variables.
 
 
